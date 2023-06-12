@@ -1,0 +1,98 @@
+#mobile .text-inicial {
+  position: absolute;
+  width: 237px;
+  left: 77px;
+  top: 104px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 34px;
+
+  text-align: center;
+  text-transform: capitalize;
+
+  color: #3a1b6d;
+}
+
+#mobile .menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  height: 80vh;
+  width: 100vw;
+}
+
+#mobile .botao {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 30px;
+  line-height: 25px;
+
+  width: 139px;
+  height: 58px;
+  left: 125px;
+  top: 562px;
+  font-weight: bold;
+  color: white;
+}
+
+#mobile .botao a {
+  color: #fff;
+  background-color: #3a1b6d;
+
+  border-radius: 15px;
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 29px;
+  text-align: center;
+  padding: 10px 70px;
+}
+
+#mobile .botao-voltar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 590px 0px 0px -320px;
+
+  height: 3rem;
+  width: 3rem;
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+}
+
+#mobile .botao-voltar a {
+  color: #fff;
+  background-color: #3a1b6d;
+
+  border-radius: 15px;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 15px 50px;
+}
+
+@media (min-width: 280px) {
+  #mobile {
+    display: flex;
+  }
+
+  #desktop {
+    display: none;
+  }
+}
+
+@media (min-width: 1024px) {
+  #mobile {
+    display: none;
+  }
+
+  #desktop {
+    display: flex;
+  }
+}

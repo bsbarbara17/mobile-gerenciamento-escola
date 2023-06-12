@@ -1,0 +1,239 @@
+#mobile .text-inicial  {
+  position: absolute;
+  width: 237px;
+  height: 34px;
+  left: -30px;
+  top: 44px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 34px;
+
+  text-align: center;
+  color: #3A1B6D;
+}
+
+#mobile .titulo-um {
+  position: absolute;
+  width: 216px;
+  height: 24px;
+  left: 86px;
+  top: 93px;
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  text-transform: capitalize;
+  font-feature-settings: 'tnum' on, 'lnum' on;
+  
+  color: #000000;
+  margin-bottom: 450px;
+}
+
+#mobile .titulo-dois {
+  position: absolute;
+  width: 216px;
+  height: 24px;
+  left: 86px;
+  top: 493px;
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  
+  color: #000000;
+  margin-top: 110px;
+  margin-bottom: 430px;
+}
+
+#mobile .titulo-tres {
+  position: absolute;
+  width: 216px;
+  height: 24px;
+  left: 86px;
+  top: 493px;
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  
+  color: #000000;
+  margin-top: 390px;
+  margin-bottom: 40px;
+}
+
+#mobile .nome-inicial {
+  display: flex;
+  flex-direction: column;
+  margin-top: 150px;
+  
+}
+
+#mobile .nome-text1, .nome-text2, .nome-text3, .nome-text4  {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+      
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  color: #000000;
+}
+
+#mobile .nome-dois {
+  margin-top: 65px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+#mobile .nome-texto {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+      
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  color: #000000;
+}
+
+#mobile .nome-obs {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+      
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  color: #000000;
+  margin-top: 70px;
+}
+
+#mobile .faixa input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: center;
+  background-color: #D9D9D9;
+  border: none;
+  border-bottom: 1px solid #D9D9D9;
+  padding: 10px 120px 8px 0px;
+  margin: 10px 0px 10px 30px; 
+  box-shadow: 0px 2px 2px #D9D9D9;
+  border-radius: 05px;
+}
+
+#mobile .nome input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: center;
+  background-color: #D9D9D9;
+  border: none;
+  border-bottom: 1px solid #D9D9D9;
+  padding: 10px 120px 180px 0px;
+  margin: 10px 0px 10px 30px; 
+  box-shadow: 0px 2px 2px #D9D9D9;
+  border-radius: 05px;
+}
+      
+#mobile input::placeholder {
+  color: #000;
+}
+
+#mobile   select {
+  width: 270px;
+  margin: 10px 40px 10px 30px;
+  padding: 5px;
+  padding-right: 05px;
+  font-size: 13px;
+}
+
+#mobile .botao-voltar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: center;
+  
+  margin: 40px 0px 30px 0px;
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+}
+      
+#mobile .botao-voltar a {
+  color: #fff;
+  background-color: #3A1B6D;
+    
+  border-radius: 15px;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 15px 50px;
+}
+
+
+
+
+@media (min-width: 280px) {
+  #mobile {
+    display: flex;
+  }
+
+  #desktop {
+    display: none;
+  }
+}
+
+@media (min-width: 1024px) {
+  #mobile {
+    display: none;
+  }
+  
+  #desktop {
+    display: flex;
+  }
+}
+
+  
+
+  @media (min-width: 280px) {
+    #mobile {
+      display: flex;
+    }
+  
+    #desktop {
+      display: none;
+    }
+  }
+
+@media (min-width: 1024px) {
+    #mobile {
+      display: none;
+    }
+    
+    #desktop {
+      display: flex;
+    }
+}
+   
+`
+
+
+
+export { Container }
